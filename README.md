@@ -9,18 +9,22 @@ A modern, full-stack blog platform built with **Next.js 16**, featuring embedded
 ![Prisma](https://img.shields.io/badge/Prisma-5-2D3748?style=for-the-badge&logo=prisma)
 ![Clerk](https://img.shields.io/badge/Clerk-Auth-6C47FF?style=for-the-badge&logo=clerk)
 
-## ✨ Features
+---
 
-- **📝 Blog Management** — Create, edit, and publish blog posts with rich text content
-- **🎬 YouTube Integration** — Embed YouTube videos directly in blog posts with synchronized single-player playback
-- **🖼️ Image Carousels** — High-definition picture slideshows with full-screen preview capability
-- **🔐 Admin Authentication** — Protected admin panel using Clerk authentication
-- **🌗 Dark/Light Mode** — Beautiful theme switching with glassmorphism design
-- **📱 Responsive Design** — Fully responsive layout optimized for all devices
-- **📬 Contact Form** — Built-in contact form for visitor messages
-- **🗄️ PostgreSQL Database** — Powered by Neon PostgreSQL with Prisma ORM
+## Features
 
-## 🛠️ Tech Stack
+- **Blog Management** — Create, edit, and publish blog posts with rich text content
+- **YouTube Integration** — Embed YouTube videos directly in blog posts with synchronized single-player playback
+- **Image Carousels** — High-definition picture slideshows with full-screen preview capability
+- **Admin Authentication** — Protected admin panel using Clerk authentication
+- **Dark / Light Mode** — Beautiful theme switching with glassmorphism design
+- **Responsive Design** — Fully responsive layout optimized for all devices
+- **Contact Form** — Built-in contact form for visitor messages
+- **PostgreSQL Database** — Powered by Neon PostgreSQL with Prisma ORM
+
+---
+
+## Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -34,7 +38,9 @@ A modern, full-stack blog platform built with **Next.js 16**, featuring embedded
 | [Lucide React](https://lucide.dev/) | Icons |
 | [React Icons](https://react-icons.github.io/react-icons/) | Icon library |
 
-## 📁 Project Structure
+---
+
+## Project Structure
 
 ```
 ├── app/
@@ -62,7 +68,9 @@ A modern, full-stack blog platform built with **Next.js 16**, featuring embedded
 └── public/              # Static assets
 ```
 
-## 🚀 Getting Started
+---
+
+## Getting Started
 
 ### Prerequisites
 
@@ -114,12 +122,17 @@ A modern, full-stack blog platform built with **Next.js 16**, featuring embedded
 
 7. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 📸 Screenshots
+---
+
+## Screenshots
 
 ### Homepage
+
 ![Homepage Screenshot](screenshots/homepage.png)
 
-## 🗃️ Database Schema
+---
+
+## Database Schema
 
 The application uses three main models:
 
@@ -127,18 +140,22 @@ The application uses three main models:
 - **ContactMessage** — Stores visitor contact form submissions
 - **AdminUser** — Manages admin user access
 
-## 🔒 Authentication
+---
+
+## Authentication
 
 The admin panel (`/admin`) is protected using Clerk authentication middleware. Only authenticated users can access the admin dashboard to manage blog posts and view contact messages.
 
-## 📄 License
+---
+
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👤 Author
+## Author
 
 **Rishikeshk6** — [GitHub Profile](https://github.com/Rishikeshk6)
 
 ---
 
-⭐ If you found this project helpful, please give it a star!
+If you found this project helpful, please consider giving it a star.
